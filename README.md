@@ -14,9 +14,15 @@ Front End Developer
 - [ JavaScript ] 
 - [ Bootstrap4 ] 
 - [ Angular13 ] 
-- 
-- [ Firebase ] 
-- - [ Git and GitHub ] - [ SQL &  SQL Server ] --------[Graphic Designer => Logo Design - Vector Art - Typography] 
+Full Stack Web Developer
+- [ Angular13 ] + [ Firebase ] 
+Other
+- [ Git and GitHub ] 
+- [ SQL &  SQL Server ]
+Graphic Designer
+- Logo Design 
+- Vector Art 
+- Typography
 
 
 
