@@ -2,7 +2,8 @@
 ### I'm Front End Developer  
 ![I'm Front End Developer  ]()
 
-I'm Ahmed Ashour Ibrahim from Egypt and I'm Front End Developer Designing & Creating Responsive Websites from Scratch    
+I'm Ahmed Ashour Ibrahim from Egypt 
+and I'm Front End Developer Designing & Creating Responsive Websites from Scratch    
                                                                                           
 #Design
 #Development
@@ -29,7 +30,6 @@ Graphic Designer
 - Logo Design 
 - Vector Art 
 - Typography
-
 
 
 
