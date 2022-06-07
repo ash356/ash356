@@ -6,7 +6,8 @@
 I'm Ahmed Ashour Ibrahim from Egypt and I'm Front End Developer Designing & Creating Responsive Websites from Scratch    
                                                                                           
 ## Skills & Experience
-Front End Developer 
+<div class="container">
+  Front End Developer 
 - HTML5
 - CSS3
 - JavaScript
@@ -23,6 +24,8 @@ Other
 - SQL &  SQL Server 
 - Java
 - Python
+
+  <div/>
 
 💻 **Languages and Tools:** 🛠️<br>
 
