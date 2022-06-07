@@ -5,9 +5,6 @@
 
 I'm Ahmed Ashour Ibrahim from Egypt and I'm Front End Developer Designing & Creating Responsive Websites from Scratch    
                                                                                           
-#Design
-#Development
-#Web
 ## Skills & Experience
 Front End Developer 
 - HTML5
