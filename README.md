@@ -1,14 +1,11 @@
 # Hi there 👋, I'm < Ahmed Ashour />
-### I'm Front End Developer  
+### I'm Front End Developer :coffee: 
 ![I'm Front End Developer  ](https://github.com/ash356/ash356/blob/main/4ff07986208593.5d9a654e92f36.gif)
 
 
 I'm Ahmed Ashour Ibrahim from Egypt and I'm Front End Developer Designing & Creating Responsive Websites from Scratch    
                                                                                           
 ## Skills & Experience
-<div class="container" style="display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
-    gap: 40px;">
   Front End Developer 
 - HTML5
 - CSS3
@@ -27,7 +24,6 @@ Other
 - Java
 - Python
 
-  <div/>
 
 💻 **Languages and Tools:** 🛠️<br>
 
