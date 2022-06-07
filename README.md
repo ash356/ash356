@@ -18,9 +18,13 @@ Front End Developer
 
 Full Stack Web Developer
 - [ Angular13 ] + [ Firebase ] 
+
+
 Other
 - [ Git and GitHub ] 
 - [ SQL &  SQL Server ]
+
+
 Graphic Designer
 - Logo Design 
 - Vector Art 
