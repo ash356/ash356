@@ -1,8 +1,7 @@
 # Hi there 👋, I'm < Ahmed Ashour />
 ### I'm Front End Developer  
-![I'm Front End Developer  ](https://static.boredpanda.com/blog/wp-content/uploads/2020/12/Hey-Pandas-Post-The-Most-Satisfying-GIF-You-Know-5fe5caedbac11.gif)
+![I'm Front End Developer  ]([https://static.boredpanda.com/blog/wp-content/uploads/2020/12/Hey-Pandas-Post-The-Most-Satisfying-GIF-You-Know-5fe5caedbac11.gif](https://www.google.com/imgres?imgurl=https%3A%2F%2Fmir-s3-cdn-cf.behance.net%2Fproject_modules%2Fmax_1200%2F4ff07986208593.5d9a654e92f36.gif&imgrefurl=https%3A%2F%2Fwww.behance.net%2Fgallery%2F86208593%2FDino-Runner-AR&tbnid=YQh6MtxFCKPO3M&vet=12ahUKEwj5u5Sropr4AhULohoKHW2IA_UQMygDegUIARCvAQ..i&docid=yZXjE0m_qVTLbM&w=890&h=300&itg=1&q=loading%20jump%20game%20gif%20transparent&hl=en&ved=2ahUKEwj5u5Sropr4AhULohoKHW2IA_UQMygDegUIARCvAQ))
 
-![til](https://raw.githubusercontent.com/hashrocket/hr-til/master/app/assets/images/banner.png)
 
 I'm Ahmed Ashour Ibrahim from Egypt and I'm Front End Developer Designing & Creating Responsive Websites from Scratch    
                                                                                           
