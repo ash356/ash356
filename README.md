@@ -39,6 +39,10 @@ Other
 ![MySQL](https://img.shields.io/badge/-MySQL-000000?style=flat&logo=mysql&labelColor=ffffff)
 ![Windows](https://img.shields.io/badge/-Windows-000000?style=flat&logo=windows&logoColor=ffffff&labelColor=0078D6)
 
+<p align="center"> 
+  Counter<br>
+  <img src="https://profile-counter.glitch.me/ash356/count.svg" />
+</p>
 
 ## Videos
 [<img src='https://youtu.be/1V7P8O6HJFk'  width="256" />](https://www.google.com)
