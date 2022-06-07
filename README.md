@@ -14,6 +14,8 @@ Front End Developer
 - [ JavaScript ] 
 - [ Bootstrap4 ] 
 - [ Angular13 ] 
+
+
 Full Stack Web Developer
 - [ Angular13 ] + [ Firebase ] 
 Other
