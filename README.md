@@ -8,9 +8,14 @@ I'm Ahmed Ashour Ibrahim from Egypt and I'm Front End Developer Designing & Crea
 #Development
 #Web
 ## Skills & Experience
-[HTML5 ]  - [ CSS3 ] 
-- [ JavaScript ] - [ Bootstrap4 ] 
-- - [ Angular13 ] - [ Firebase ] 
+Front End Developer 
+- [HTML5 ]
+- [ CSS3 ] 
+- [ JavaScript ] 
+- [ Bootstrap4 ] 
+- [ Angular13 ] 
+- 
+- [ Firebase ] 
 - - [ Git and GitHub ] - [ SQL &  SQL Server ] --------[Graphic Designer => Logo Design - Vector Art - Typography] 
 
 
