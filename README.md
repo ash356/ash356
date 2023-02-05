@@ -38,7 +38,7 @@ Other
 ![Windows](https://img.shields.io/badge/-Windows-000000?style=flat&logo=windows&logoColor=ffffff&labelColor=0078D6)
 
 <p align="center"> 
-  Counter<br>
+  Views<br>
   <img src="https://profile-counter.glitch.me/ash356/count.svg" />
 </p>
 
