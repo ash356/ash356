@@ -20,10 +20,11 @@ Other
 - SQL &  SQL Server 
 - Java
 - Python
-
-
-💻 **Languages and Tools:** 🛠️<br>
-
+<br>
+<br>
+<h1 align="center">💻 **Languages and Tools:** 🛠️</h1>
+<br>
+<br>
 ![Git](https://img.shields.io/badge/-Git-000000?style=flat&logo=git&logoColor=F05032&labelColor=ffffff)
 ![GitHub](https://img.shields.io/badge/-GitHub-000000?style=flat&logo=github&logoColor=000000&labelColor=ffffff)
 ![Visual Studio Code](https://img.shields.io/badge/-VSCode-000000?style=flat&logo=visual-studio-code&labelColor=007ACC)
