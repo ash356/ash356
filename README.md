@@ -1,9 +1,7 @@
 # Hi there 👋, I'm < Ahmed Ashour />
 ### I'm Front End Developer :coffee: 
 ![I'm Front End Developer  ](https://github.com/ash356/ash356/blob/main/4ff07986208593.5d9a654e92f36.gif)
-
 I'm Ahmed Ashour Ibrahim from Egypt and I'm Front End Developer Designing & Creating Responsive Websites from Scratch    
-
 ## Skills & Experience
   Front End Developer 
 - HTML5
@@ -11,20 +9,17 @@ I'm Ahmed Ashour Ibrahim from Egypt and I'm Front End Developer Designing & Crea
 - JavaScript
 - Bootstrap4 
 - Angular13 
-
 Full Stack Web Developer
 - Angular + Firebase 
-
 Other
 - Git and GitHub
 - SQL &  SQL Server 
 - Java
 - Python
-<br>
-<br>
-<h1 align="center">💻 **Languages and Tools:** 🛠️</h1>
-<br>
-<br>
+
+
+💻 **Languages and Tools:** 🛠️<br>
+
 ![Git](https://img.shields.io/badge/-Git-000000?style=flat&logo=git&logoColor=F05032&labelColor=ffffff)
 ![GitHub](https://img.shields.io/badge/-GitHub-000000?style=flat&logo=github&logoColor=000000&labelColor=ffffff)
 ![Visual Studio Code](https://img.shields.io/badge/-VSCode-000000?style=flat&logo=visual-studio-code&labelColor=007ACC)
@@ -37,16 +32,12 @@ Other
 ![NPM](https://img.shields.io/badge/-npm-000000?style=flat&logo=npm&labelColor=ffffff)
 ![MySQL](https://img.shields.io/badge/-MySQL-000000?style=flat&logo=mysql&labelColor=ffffff)
 ![Windows](https://img.shields.io/badge/-Windows-000000?style=flat&logo=windows&logoColor=ffffff&labelColor=0078D6)
-
-
-
 [<img src='https://cdn.jsdelivr.net/npm/simple-icons@3.0.1/icons/github.svg' alt='github' height='40'>](https://github.com/ash356) [<img src='https://cdn.jsdelivr.net/npm/simple-icons@3.0.1/icons/linkedin.svg' alt='linkedin' height='40'>](https://www.linkedin.com/in/ahmed-ashour-96024a210//) [<img src='https://cdn.jsdelivr.net/npm/simple-icons@3.0.1/icons/facebook.svg' alt='facebook' height='40'>](https://www.facebook.com/a7med3shour2020/) [<img src='https://cdn.jsdelivr.net/npm/simple-icons@3.0.1/icons/instagram.svg' alt='instagram' height='40'>](https://www.instagram.com/ahmedashour_22/?fbclid=IwAR0p9mGxrk1wcftODeZrCVEApIPnEJH4FP2CqmuZL6QHPPaiokq0dAFor8s/) [<img src='https://cdn.jsdelivr.net/npm/simple-icons@3.0.1/icons/twitter.svg' alt='twitter' height='40'>](https://twitter.com/ahmedas18362884) [<img src='https://cdn.jsdelivr.net/npm/simple-icons@3.0.1/icons/youtube.svg' alt='YouTube' height='40'>](https://www.youtube.com/channel/UCdU95owpu8nPvPS7SIbZ8gw) [<img src='https://cdn.jsdelivr.net/npm/simple-icons@3.0.1/icons/icloud.svg' alt='website' height='40'>](https://ash356.github.io/Portfolio-01/HTML/)
 <br>
 <p align="center"> 
   Views<br>
   <img src="https://profile-counter.glitch.me/ash356/count.svg" />
 </p>
-
 <!---
 ash356/ash356 is a ✨ special ✨ repository because its `README.md` (this file) appears on your GitHub profile.
 You can click the Preview link to take a look at your changes.
