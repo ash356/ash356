@@ -69,7 +69,10 @@ Other
 
 
 <!--  Social Links -->
-<h5 align="center"> 
+<h2 align="center"> 
+  🤝 Connect With Me
+  <br/>
+  <br/>
   
   [<img src='https://github.com/ash356/ash356/blob/main/images/github.svg' alt='github' height='40'>](https://github.com/ash356) &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
   [<img src='https://github.com/ash356/ash356/blob/main/images/linkedin.svg' alt='linkedin' height='40'>](https://www.linkedin.com/in/ahmed-ashour-96024a210//)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
@@ -77,7 +80,7 @@ Other
   [<img src='https://github.com/ash356/ash356/blob/main/images/instagram.svg' alt='instagram' height='40'>](https://www.instagram.com/ahmedashour_22/?fbclid=IwAR0p9mGxrk1wcftODeZrCVEApIPnEJH4FP2CqmuZL6QHPPaiokq0dAFor8s/) &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
   [<img src='https://github.com/ash356/ash356/blob/main/images/twitter.svg' alt='twitter' height='40'>](https://twitter.com/ahmedas18362884) &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
   [<img src='https://github.com/ash356/ash356/blob/main/images/youtube.svg' alt='YouTube' height='40'>](https://www.youtube.com/channel/UCdU95owpu8nPvPS7SIbZ8gw) &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;     [<img src='https://github.com/ash356/ash356/blob/main/images/avatar.svg' alt='website' height='40'>](https://ash356.github.io/Portfolio-01/HTML/) &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-</h5>
+</h2>
 <br/>
 <br/>
 <p align="center"> 
