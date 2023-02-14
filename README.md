@@ -1,22 +1,24 @@
 <h1 align="center"> 
-  Hi there 👋, I'm < Ahmed Ashour />
+  Hi 👋, I'm < Ahmed Ashour />
 </h1>
 <h3 align="center"> 
-  I'm Front End Developer :coffee: :heart:
+  I'm Full Stack Developer :coffee: :heart:
 </h3>
 <br/>
 <h5 align="center"> 
   
   ![image](https://github.com/ash356/ash356/blob/main/4ff07986208593.5d9a654e92f36.gif)
-  
 </h5>
-
-
-
 <br/>
-<p align="center"> 
-  I'm Ahmed Ashour Ibrahim from Egypt and I'm Front End Developer Designing & Creating Responsive Websites from Scratch 
-</p> 
+
+I'm Ahmed Ashour Ibrahim from Egypt and I'm Full Stack Developer with experience in web development and a passion for creating dynamic and efficient applications.
+
+My expertise includes HTML, CSS, and Bootstrap, which I use to create the structure and design of web pages. I have a deep understanding of JavaScript, Angular, and Express.js, which I use to build interactive and dynamic web elements and develop robust server-side applications.
+
+In addition, I have experience working with Node.js, MySQL, Java, and Firebase. These technologies enable me to build scalable and responsive applications that can handle large amounts of data.
+
+I am proficient in Git and GitHub, and I have a solid understanding of database design, object-oriented programming, and problem-solving. These skills allow me to collaborate effectively on projects, maintain the history of code changes, and find solutions to complex challenges in web development. 
+
 
 ## Skills & Experience
   Front End Developer 
