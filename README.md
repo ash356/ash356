@@ -88,6 +88,10 @@ Other
   <img src="https://profile-counter.glitch.me/ash356/count.svg" />
 </p>
 
+![Snake animation](https://github.com/ash356/ash356/blob/output/github-contribution-grid-snake.svg)
+
+
+
 <!-- GIF -->
 <!-- ![image](https://github.com/ash356/ash356/blob/main/4ff07986208593.5d9a654e92f36.gif) -->
 <!-- Skills -->
