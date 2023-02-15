@@ -38,6 +38,7 @@ Other
 <p align="center"> 
   
 </p>
+<hr>
 <!-- Skills -->
 <h2 align="center"> 
   
