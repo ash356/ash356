@@ -86,9 +86,13 @@ Other
 <p align="center"> 
   Views<br/>
   <img src="https://profile-counter.glitch.me/ash356/count.svg" />
+  <br/>
 </p>
+<h4 align="center"> 
+  
+  ![Snake animation](https://github.com/eagrundy/eagrundy/blob/output/github-contribution-grid-snake.svg)
+</h4>
 
-![Snake animation](https://github.com/eagrundy/eagrundy/blob/output/github-contribution-grid-snake.svg)
 
 
 <!-- Snake Animation -->
