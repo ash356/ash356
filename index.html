@@ -1,0 +1,418 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="" xml:lang="">
+<head>
+  <meta charset="utf-8" />
+  <meta name="generator" content="pandoc" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes" />
+  <title>Ahmed Ashour</title>
+  <style>
+    html {
+      color: #1a1a1a;
+      background-color: #fdfdfd;
+    }
+    body {
+      margin: 0 auto;
+      max-width: 36em;
+      padding-left: 50px;
+      padding-right: 50px;
+      padding-top: 50px;
+      padding-bottom: 50px;
+      hyphens: auto;
+      overflow-wrap: break-word;
+      text-rendering: optimizeLegibility;
+      font-kerning: normal;
+    }
+    @media (max-width: 600px) {
+      body {
+        font-size: 0.9em;
+        padding: 12px;
+      }
+      h1 {
+        font-size: 1.8em;
+      }
+    }
+    @media print {
+      html {
+        background-color: white;
+      }
+      body {
+        background-color: transparent;
+        color: black;
+        font-size: 12pt;
+      }
+      p, h2, h3 {
+        orphans: 3;
+        widows: 3;
+      }
+      h2, h3, h4 {
+        page-break-after: avoid;
+      }
+    }
+    p {
+      margin: 1em 0;
+    }
+    a {
+      color: #1a1a1a;
+    }
+    a:visited {
+      color: #1a1a1a;
+    }
+    img {
+      max-width: 100%;
+    }
+    h1, h2, h3, h4, h5, h6 {
+      margin-top: 1.4em;
+    }
+    h5, h6 {
+      font-size: 1em;
+      font-style: italic;
+    }
+    h6 {
+      font-weight: normal;
+    }
+    ol, ul {
+      padding-left: 1.7em;
+      margin-top: 1em;
+    }
+    li > ol, li > ul {
+      margin-top: 0;
+    }
+    blockquote {
+      margin: 1em 0 1em 1.7em;
+      padding-left: 1em;
+      border-left: 2px solid #e6e6e6;
+      color: #606060;
+    }
+    code {
+      font-family: Menlo, Monaco, Consolas, 'Lucida Console', monospace;
+      font-size: 85%;
+      margin: 0;
+      hyphens: manual;
+    }
+    pre {
+      margin: 1em 0;
+      overflow: auto;
+    }
+    pre code {
+      padding: 0;
+      overflow: visible;
+      overflow-wrap: normal;
+    }
+    .sourceCode {
+     background-color: transparent;
+     overflow: visible;
+    }
+    hr {
+      background-color: #1a1a1a;
+      border: none;
+      height: 1px;
+      margin: 1em 0;
+    }
+    table {
+      margin: 1em 0;
+      border-collapse: collapse;
+      width: 100%;
+      overflow-x: auto;
+      display: block;
+      font-variant-numeric: lining-nums tabular-nums;
+    }
+    table caption {
+      margin-bottom: 0.75em;
+    }
+    tbody {
+      margin-top: 0.5em;
+      border-top: 1px solid #1a1a1a;
+      border-bottom: 1px solid #1a1a1a;
+    }
+    th {
+      border-top: 1px solid #1a1a1a;
+      padding: 0.25em 0.5em 0.25em 0.5em;
+    }
+    td {
+      padding: 0.125em 0.5em 0.25em 0.5em;
+    }
+    header {
+      margin-bottom: 4em;
+      text-align: center;
+    }
+    #TOC li {
+      list-style: none;
+    }
+    #TOC ul {
+      padding-left: 1.3em;
+    }
+    #TOC > ul {
+      padding-left: 0;
+    }
+    #TOC a:not(:hover) {
+      text-decoration: none;
+    }
+    code{white-space: pre-wrap;}
+    span.smallcaps{font-variant: small-caps;}
+    div.columns{display: flex; gap: min(4vw, 1.5em);}
+    div.column{flex: auto; overflow-x: auto;}
+    div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+    ul.task-list{list-style: none;}
+    ul.task-list li input[type="checkbox"] {
+      width: 0.8em;
+      margin: 0 0.8em 0.2em -1.6em;
+      vertical-align: middle;
+    }
+    .display.math{display: block; text-align: center; margin: 0.5rem auto;}
+    /* CSS for syntax highlighting */
+    pre > code.sourceCode { white-space: pre; position: relative; }
+    pre > code.sourceCode > span { display: inline-block; line-height: 1.25; }
+    pre > code.sourceCode > span:empty { height: 1.2em; }
+    .sourceCode { overflow: visible; }
+    code.sourceCode > span { color: inherit; text-decoration: inherit; }
+    div.sourceCode { margin: 1em 0; }
+    pre.sourceCode { margin: 0; }
+    @media screen {
+    div.sourceCode { overflow: auto; }
+    }
+    @media print {
+    pre > code.sourceCode { white-space: pre-wrap; }
+    pre > code.sourceCode > span { text-indent: -5em; padding-left: 5em; }
+    }
+    pre.numberSource code
+      { counter-reset: source-line 0; }
+    pre.numberSource code > span
+      { position: relative; left: -4em; counter-increment: source-line; }
+    pre.numberSource code > span > a:first-child::before
+      { content: counter(source-line);
+        position: relative; left: -1em; text-align: right; vertical-align: baseline;
+        border: none; display: inline-block;
+        -webkit-touch-callout: none; -webkit-user-select: none;
+        -khtml-user-select: none; -moz-user-select: none;
+        -ms-user-select: none; user-select: none;
+        padding: 0 4px; width: 4em;
+        color: #aaaaaa;
+      }
+    pre.numberSource { margin-left: 3em; border-left: 1px solid #aaaaaa;  padding-left: 4px; }
+    div.sourceCode
+      {   }
+    @media screen {
+    pre > code.sourceCode > span > a:first-child::before { text-decoration: underline; }
+    }
+    code span.al { color: #ff0000; font-weight: bold; } /* Alert */
+    code span.an { color: #60a0b0; font-weight: bold; font-style: italic; } /* Annotation */
+    code span.at { color: #7d9029; } /* Attribute */
+    code span.bn { color: #40a070; } /* BaseN */
+    code span.bu { color: #008000; } /* BuiltIn */
+    code span.cf { color: #007020; font-weight: bold; } /* ControlFlow */
+    code span.ch { color: #4070a0; } /* Char */
+    code span.cn { color: #880000; } /* Constant */
+    code span.co { color: #60a0b0; font-style: italic; } /* Comment */
+    code span.cv { color: #60a0b0; font-weight: bold; font-style: italic; } /* CommentVar */
+    code span.do { color: #ba2121; font-style: italic; } /* Documentation */
+    code span.dt { color: #902000; } /* DataType */
+    code span.dv { color: #40a070; } /* DecVal */
+    code span.er { color: #ff0000; font-weight: bold; } /* Error */
+    code span.ex { } /* Extension */
+    code span.fl { color: #40a070; } /* Float */
+    code span.fu { color: #06287e; } /* Function */
+    code span.im { color: #008000; font-weight: bold; } /* Import */
+    code span.in { color: #60a0b0; font-weight: bold; font-style: italic; } /* Information */
+    code span.kw { color: #007020; font-weight: bold; } /* Keyword */
+    code span.op { color: #666666; } /* Operator */
+    code span.ot { color: #007020; } /* Other */
+    code span.pp { color: #bc7a00; } /* Preprocessor */
+    code span.sc { color: #4070a0; } /* SpecialChar */
+    code span.ss { color: #bb6688; } /* SpecialString */
+    code span.st { color: #4070a0; } /* String */
+    code span.va { color: #19177c; } /* Variable */
+    code span.vs { color: #4070a0; } /* VerbatimString */
+    code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warning */
+  </style>
+  <!--[if lt IE 9]>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv-printshiv.min.js"></script>
+  <![endif]-->
+</head>
+<body>
+<header id="title-block-header">
+<h1 class="title">Ahmed Ashour</h1>
+</header>
+<h3 align="center"> 
+  Hi there 👋, I'm < Ahmed Ashour />
+</h3>
+<h1 align="center"> 
+  👨‍💻 I'm Full Stack Developer | Angular - Nodejs 💜
+</h1>
+<br/>
+<h5 align="center"> 
+
+<p><img
+src="https://github.com/ash356/ash356/blob/main/4ff07986208593.5d9a654e92f36.gif"
+alt="image" /></p>
+</h5>
+<br/>
+<!-- JavaScript Code -->
+<p align="center"> 
+
+<div class="sourceCode" id="cb1"><pre
+class="sourceCode javascript"><code class="sourceCode javascript"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="kw">const</span> ashour <span class="op">=</span> {</span>
+<span id="cb1-2"><a href="#cb1-2" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-3"><a href="#cb1-3" aria-hidden="true" tabindex="-1"></a><span class="dt">pronouns</span><span class="op">:</span> 🙋‍♂️ <span class="st">&quot;He&quot;</span> <span class="op">|</span> <span class="st">&quot;Him&quot;</span><span class="op">,</span></span>
+<span id="cb1-4"><a href="#cb1-4" aria-hidden="true" tabindex="-1"></a><span class="dt">code</span><span class="op">:</span> [ Javascript<span class="op">,</span> Typescript<span class="op">,</span> SQL<span class="op">,</span> Java<span class="op">,</span> C<span class="op">++,</span> Python ]<span class="op">,</span></span>
+<span id="cb1-5"><a href="#cb1-5" aria-hidden="true" tabindex="-1"></a><span class="dt">technologies</span><span class="op">:</span> {</span>
+<span id="cb1-6"><a href="#cb1-6" aria-hidden="true" tabindex="-1"></a>  <span class="dt">frontEnd</span><span class="op">:</span> [ HTML<span class="op">,</span> <span class="bu">CSS</span><span class="op">,</span> Bootstrap<span class="op">,</span> JavaScript<span class="op">,</span> Angular ]<span class="op">,</span></span>
+<span id="cb1-7"><a href="#cb1-7" aria-hidden="true" tabindex="-1"></a>  <span class="dt">backEnd</span><span class="op">:</span> [ Nodejs<span class="op">,</span> Expressjs<span class="op">,</span> Sequelize ]<span class="op">,</span></span>
+<span id="cb1-8"><a href="#cb1-8" aria-hidden="true" tabindex="-1"></a>  <span class="dt">databases</span><span class="op">:</span> [ MongoBD <span class="op">,</span> MySql <span class="op">,</span> Firebase ]<span class="op">,</span></span>
+<span id="cb1-9"><a href="#cb1-9" aria-hidden="true" tabindex="-1"></a>  <span class="dt">tools</span><span class="op">:</span> [ <span class="st">&quot;Git&quot;</span><span class="op">,</span> <span class="st">&quot;GitHub&quot;</span><span class="op">,</span> <span class="st">&quot;VS-Code&quot;</span><span class="op">,</span><span class="st">&quot;PostMan&quot;</span><span class="op">,</span><span class="st">&quot;FontAwesome&quot;</span> ]<span class="op">,</span></span>
+<span id="cb1-10"><a href="#cb1-10" aria-hidden="true" tabindex="-1"></a>}<span class="op">,</span></span>
+<span id="cb1-11"><a href="#cb1-11" aria-hidden="true" tabindex="-1"></a><span class="dt">architecture</span><span class="op">:</span> [ <span class="st">&quot;Single Page Applications&quot;</span><span class="op">,</span> <span class="st">&quot;MVC&quot;</span><span class="op">,</span><span class="st">&quot;Microservices&quot;</span> ]<span class="op">,</span></span>
+<span id="cb1-12"><a href="#cb1-12" aria-hidden="true" tabindex="-1"></a><span class="dt">SoftSkills</span><span class="op">:</span> [ <span class="st">&quot;Problem-Solving&quot;</span><span class="op">,</span> <span class="st">&quot;Creativity&quot;</span><span class="op">,</span> <span class="st">&quot;Teamwork&quot;</span><span class="op">,</span> <span class="st">&quot;Communication&quot;</span> ]<span class="op">,</span></span>
+<span id="cb1-13"><a href="#cb1-13" aria-hidden="true" tabindex="-1"></a><span class="dt">funFact</span><span class="op">:</span></span>
+<span id="cb1-14"><a href="#cb1-14" aria-hidden="true" tabindex="-1"></a>  <span class="st">&quot;There are two ways to write error-free programs; only the third one works 😊&quot;</span><span class="op">,</span></span>
+<span id="cb1-15"><a href="#cb1-15" aria-hidden="true" tabindex="-1"></a>  </span>
+<span id="cb1-16"><a href="#cb1-16" aria-hidden="true" tabindex="-1"></a>}<span class="op">;</span></span></code></pre></div>
+</p>
+<hr>
+<!-- Skills -->
+<h2 align="center"> 
+
+<p>💻 <strong>Languages and Tools:</strong> 🛠️ <br/> <br/> <img
+src="https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&amp;logo=html5&amp;logoColor=white"
+alt="HTML5" />&amp;nbsp; <img
+src="https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&amp;logo=css3&amp;logoColor=white"
+alt="CSS3" />&amp;nbsp; <img
+src="https://img.shields.io/badge/-font%20awesome-339AF0?style=for-the-badge&amp;logo=font-awesome&amp;logoColor=339AF0&amp;labelColor=ffffff"
+alt="Font Awesome" />&amp;nbsp; <img
+src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&amp;logo=javascript&amp;logoColor=black"
+alt="JavaScript" />&amp;nbsp; <img
+src="https://img.shields.io/badge/Bootstrap-563D7C?style=for-the-badge&amp;logo=bootstrap&amp;logoColor=white"
+alt="Bootstrap" />&amp;nbsp; <img
+src="https://img.shields.io/badge/Angular-DD0031?style=for-the-badge&amp;logo=angular&amp;logoColor=white"
+alt="Angular" />&amp;nbsp; <img
+src="https://img.shields.io/badge/Node.js-43853D?style=for-the-badge&amp;logo=node.js&amp;logoColor=white"
+alt="Nodejs" />&amp;nbsp; <img
+src="https://img.shields.io/badge/Express.js-404D59?style=for-the-badge"
+alt="Express" />&amp;nbsp; <img
+src="https://img.shields.io/badge/Postman-FF6C37?style=for-the-badge&amp;logo=postman&amp;logoColor=white"
+alt="Postman" />&amp;nbsp; <img
+src="https://img.shields.io/badge/sequelize-323330?style=for-the-badge&amp;logo=sequelize&amp;logoColor=blue"
+alt="Squelize" />&amp;nbsp; <img
+src="https://img.shields.io/badge/MongoDB-%234ea94b.svg?style=for-the-badge&amp;logo=mongodb&amp;logoColor=white"
+alt="MongoDB" />&amp;nbsp; <img
+src="https://img.shields.io/badge/TypeScript-007ACC?style=for-the-badge&amp;logo=typescript&amp;logoColor=white"
+alt="TypeScript" />&amp;nbsp; <img
+src="https://img.shields.io/badge/C-00599C?style=for-the-badge&amp;logo=c&amp;logoColor=white"
+alt="C" />&amp;nbsp; <img
+src="https://img.shields.io/badge/C%2B%2B-00599C?style=for-the-badge&amp;logo=c%2B%2B&amp;logoColor=white"
+alt="C++" />&amp;nbsp; <img
+src="https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&amp;logo=openjdk&amp;logoColor=white"
+alt="Java" />&amp;nbsp; <img
+src="https://img.shields.io/badge/-VSCode-323330?style=for-the-badge&amp;logo=visual-studio-code&amp;labelColor=007ACC"
+alt="Visual Studio Code" />&amp;nbsp; <img
+src="https://img.shields.io/badge/GIT-E44C30?style=for-the-badge&amp;logo=git&amp;logoColor=white"
+alt="Git" />&amp;nbsp; <img
+src="https://img.shields.io/badge/-GitHub-000000?style=for-the-badge&amp;logo=github&amp;logoColor=000000&amp;labelColor=ffffff"
+alt="GitHub" />&amp;nbsp; <img
+src="https://img.shields.io/badge/npm-CB3837?style=for-the-badge&amp;logo=npm&amp;logoColor=white"
+alt="NPM" />&amp;nbsp; <img
+src="https://img.shields.io/badge/MySQL-005C84?style=for-the-badge&amp;logo=mysql&amp;logoColor=white"
+alt="MySQL" />&amp;nbsp; <img
+src="https://img.shields.io/badge/JWT-black?style=for-the-badge&amp;logo=JSON%20web%20tokens"
+alt="JWT" />&amp;nbsp; <img
+src="https://img.shields.io/badge/firebase-%23039BE5.svg?style=for-the-badge&amp;logo=firebase"
+alt="Firebase" />&amp;nbsp; <img
+src="https://img.shields.io/badge/docker-%230db7ed.svg?style=for-the-badge&amp;logo=docker&amp;logoColor=white"
+alt="Docker" />&amp;nbsp; <img
+src="https://img.shields.io/badge/Socket.io-black?style=for-the-badge&amp;logo=socket.io&amp;badgeColor=010101"
+alt="Socket.io" />&amp;nbsp; <img
+src="https://img.shields.io/badge/Python-14354C?style=for-the-badge&amp;logo=python&amp;logoColor=white"
+alt="Python" />&amp;nbsp; <img
+src="https://img.shields.io/badge/Windows-0078D6?style=for-the-badge&amp;logo=windows&amp;logoColor=white"
+alt="Windows" />&amp;nbsp; <img
+src="https://img.shields.io/badge/Google%20Chrome-4285F4?style=for-the-badge&amp;logo=GoogleChrome&amp;logoColor=white"
+alt="Google Chrome" />&amp;nbsp; <img
+src="https://img.shields.io/badge/netlify-%23000000.svg?style=for-the-badge&amp;logo=netlify&amp;logoColor=#00C7B7"
+alt="Netlify" />&amp;nbsp; <img
+src="https://img.shields.io/badge/vercel-%23000000.svg?style=for-the-badge&amp;logo=vercel&amp;logoColor=white"
+alt="Vercel" />&amp;nbsp; <img
+src="https://img.shields.io/badge/-Stackoverflow-FE7A16?style=for-the-badge&amp;logo=stack-overflow&amp;logoColor=white"
+alt="Stack Overflow" />&amp;nbsp; <img
+src="https://img.shields.io/badge/-ChatGPT-%234ea94b.svg?style=for-the-badge&amp;logo=chat-gpt&amp;logoColor=white"
+alt="Chat GPT" />&amp;nbsp;</p>
+</h2>
+
+<!--  Social Links -->
+
+<h2 align="center"> 
+  🤝 Connect With Me
+  <br/>
+  <br/>
+
+<p><a
+href="https://github.com/ash356"><img src='https://github.com/ash356/ash356/blob/main/images/github.svg' alt='github' height='40'></a>
+      <a
+href="https://www.linkedin.com/in/ahmed-ashour-96024a210//"><img src='https://github.com/ash356/ash356/blob/main/images/linkedin.svg' alt='linkedin' height='40'></a>&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;
+<a
+href="https://www.facebook.com/a7med3shour2020/"><img src='https://github.com/ash356/ash356/blob/main/images/facebook.svg' alt='facebook' height='40'></a>
+    <a
+href="https://www.instagram.com/ahmedashour_22/?fbclid=IwAR0p9mGxrk1wcftODeZrCVEApIPnEJH4FP2CqmuZL6QHPPaiokq0dAFor8s/"><img src='https://github.com/ash356/ash356/blob/main/images/instagram.svg' alt='instagram' height='40'></a>
+      <a
+href="https://twitter.com/ahmedas18362884"><img src='https://github.com/ash356/ash356/blob/main/images/twitter.svg' alt='twitter' height='40'></a>
+      <a
+href="https://www.youtube.com/channel/UCdU95owpu8nPvPS7SIbZ8gw"><img src='https://github.com/ash356/ash356/blob/main/images/youtube.svg' alt='YouTube' height='40'></a>
+      <a
+href="https://ash356.github.io/Portfolio-01/HTML/"><img src='https://github.com/ash356/ash356/blob/main/images/avatar.svg' alt='website' height='40'></a>
+     </p>
+</h2>
+<br/>
+<br/>
+<p align="center"> 
+  Views<br/>
+  <img src="https://profile-counter.glitch.me/ash356/count.svg" />
+  <br/>
+</p>
+<h4 align="center"> 
+
+<p><img
+src="https://github.com/eagrundy/eagrundy/blob/output/github-contribution-grid-snake.svg"
+alt="Snake animation" /></p>
+</h4>
+
+<!-- I'm Ahmed Ashour Ibrahim from Egypt and I'm Full Stack Developer with experience in web development and a passion for creating dynamic and efficient applications.
+
+My expertise includes HTML, CSS, and Bootstrap, which I use to create the structure and design of web pages. I have a deep understanding of JavaScript, Angular, and Express.js, which I use to build interactive and dynamic web elements and develop robust server-side applications.
+
+In addition, I have experience working with Node.js, MySQL, Java, and Firebase. These technologies enable me to build scalable and responsive applications that can handle large amounts of data.
+
+I am proficient in Git and GitHub, and I have a solid understanding of database design, object-oriented programming, and problem-solving. These skills allow me to collaborate effectively on projects, maintain the history of code changes, and find solutions to complex challenges in web development.  -->
+
+<!-- Snake Animation -->
+
+<!-- ![Snake Animation](https://github.com/BicaBenedicto/BicaBenedicto/blob/output/github-contribution-grid-snake.svg) -->
+
+<!-- GIF -->
+
+<!-- ![image](https://github.com/ash356/ash356/blob/main/4ff07986208593.5d9a654e92f36.gif) -->
+
+<!-- Skills -->
+
+<!-- ![Git](https://img.shields.io/badge/-Git-000000?style=flat&logo=git&logoColor=F05032&labelColor=ffffff)
+![GitHub](https://img.shields.io/badge/-GitHub-000000?style=flat&logo=github&logoColor=000000&labelColor=ffffff)
+![Visual Studio Code](https://img.shields.io/badge/-VSCode-000000?style=flat&logo=visual-studio-code&labelColor=007ACC)
+![HTML5](https://img.shields.io/badge/-HTML5-000000?style=flat&logo=html5&logoColor=ffffff&labelColor=E34F26)
+![CSS3](https://img.shields.io/badge/-CSS3-000000?style=flat&logo=css3&logoColor=ffffff&labelColor=1572B6) 
+![Font Awesome](https://img.shields.io/badge/-font%20awesome-000000?style=flat&logo=font-awesome&logoColor=339AF0&labelColor=ffffff)
+![JavaScript](https://img.shields.io/badge/-JavaScript-000000?style=flat&logo=javascript)
+![Bootstrap](https://img.shields.io/badge/-Bootstrap-000000?style=flat&logo=bootstrap&logoColor=ffffff&labelColor=563D7C)
+![Nodejs](https://img.shields.io/badge/-Nodejs-000000?style=flat&logo=Node.js)
+![NPM](https://img.shields.io/badge/-npm-000000?style=flat&logo=npm&labelColor=ffffff)
+![MySQL](https://img.shields.io/badge/-MySQL-000000?style=flat&logo=mysql&labelColor=ffffff)
+![Windows](https://img.shields.io/badge/-Windows-000000?style=flat&logo=windows&logoColor=ffffff&labelColor=0078D6)
+ -->
+
+<!-- Social Links -->
+
+<!-- [<img src='https://cdn.jsdelivr.net/npm/simple-icons@3.0.1/icons/github.svg' alt='github' height='40'>](https://github.com/ash356) [<img src='https://cdn.jsdelivr.net/npm/simple-icons@3.0.1/icons/linkedin.svg' alt='linkedin' height='40'>](https://www.linkedin.com/in/ahmed-ashour-96024a210//) [<img src='https://cdn.jsdelivr.net/npm/simple-icons@3.0.1/icons/facebook.svg' alt='facebook' height='40'>](https://www.facebook.com/a7med3shour2020/) [<img src='https://cdn.jsdelivr.net/npm/simple-icons@3.0.1/icons/instagram.svg' alt='instagram' height='40'>](https://www.instagram.com/ahmedashour_22/?fbclid=IwAR0p9mGxrk1wcftODeZrCVEApIPnEJH4FP2CqmuZL6QHPPaiokq0dAFor8s/) [<img src='https://cdn.jsdelivr.net/npm/simple-icons@3.0.1/icons/twitter.svg' alt='twitter' height='40'>](https://twitter.com/ahmedas18362884) [<img src='https://cdn.jsdelivr.net/npm/simple-icons@3.0.1/icons/youtube.svg' alt='YouTube' height='40'>](https://www.youtube.com/channel/UCdU95owpu8nPvPS7SIbZ8gw) [<img src='https://cdn.jsdelivr.net/npm/simple-icons@3.0.1/icons/icloud.svg' alt='website' height='40'>](https://ash356.github.io/Portfolio-01/HTML/)
+ -->
+
+<!---
+ash356/ash356 is a ✨ special ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+You can click the Preview link to take a look at your changes.
+
+</body>
+</html>
