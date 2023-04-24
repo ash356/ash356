@@ -24,7 +24,7 @@ const ashour = {
     databases: [ MongoBD , MySql , Firebase ],
     tools: [ "Git", "GitHub", "VS-Code","PostMan","FontAwesome" ],
   },
-  architecture: [ "Single Page Applications", "MVC" ],
+  architecture: [ "Single Page Applications", "MVC","Microservices" ],
   SoftSkills: [ "Problem-Solving", "Creativity", "Teamwork", "Communication" ],
   funFact:
     "There are two ways to write error-free programs; only the third one works 😊",
@@ -48,6 +48,7 @@ const ashour = {
    ![Angular](https://img.shields.io/badge/Angular-DD0031?style=for-the-badge&logo=angular&logoColor=white)&nbsp;
    ![Nodejs](https://img.shields.io/badge/Node.js-43853D?style=for-the-badge&logo=node.js&logoColor=white)&nbsp;
    ![Express](https://img.shields.io/badge/Express.js-404D59?style=for-the-badge)&nbsp;
+   ![Postman](https://img.shields.io/badge/Postman-FF6C37?style=for-the-badge&logo=postman&logoColor=white)&nbsp;
    ![Squelize](https://img.shields.io/badge/sequelize-323330?style=for-the-badge&logo=sequelize&logoColor=blue)&nbsp;
    ![MongoDB](https://img.shields.io/badge/MongoDB-%234ea94b.svg?style=for-the-badge&logo=mongodb&logoColor=white)&nbsp;
    ![TypeScript](https://img.shields.io/badge/TypeScript-007ACC?style=for-the-badge&logo=typescript&logoColor=white)&nbsp;
@@ -61,6 +62,7 @@ const ashour = {
    ![MySQL](https://img.shields.io/badge/MySQL-005C84?style=for-the-badge&logo=mysql&logoColor=white)&nbsp;
    ![Python](https://img.shields.io/badge/Python-14354C?style=for-the-badge&logo=python&logoColor=white)&nbsp;
    ![Windows](https://img.shields.io/badge/Windows-0078D6?style=for-the-badge&logo=windows&logoColor=white)&nbsp;
+   ![Google Chrome](https://img.shields.io/badge/Google%20Chrome-4285F4?style=for-the-badge&logo=GoogleChrome&logoColor=white)&nbsp;
 </h2>
 
 
