@@ -22,10 +22,10 @@ const ashour = {
     frontEnd: [ HTML, CSS, Bootstrap, JavaScript, Angular ],
     backEnd: [ Nodejs, Expressjs, Sequelize ],
     databases: [ MongoBD , MySql , Firebase ],
-    tools: [ "Git", "GitHub", "VS-Code", "FontAwesome" ],
+    tools: [ "Git", "GitHub", "VS-Code","PostMan","FontAwesome" ],
   },
-  architecture: [ "Single page applications", "MVC" ],
-  SoftSkills: [ "Problem-solving", "Creativity", "Teamwork", "Communication" ],
+  architecture: [ "Single Page Applications", "MVC" ],
+  SoftSkills: [ "Problem-Solving", "Creativity", "Teamwork", "Communication" ],
   funFact:
     "There are two ways to write error-free programs; only the third one works 😊",
     
