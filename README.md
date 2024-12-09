@@ -1,6 +1,15 @@
 <h3 align="center"> 
   Hi there 👋, I'm < Ahmed Ashour />
 </h3>
+  <br />
+  <div align="center">
+    <img 
+      src="https://github.com/ash356.png" 
+      alt="Ahmed Ashour" 
+      width="250" 
+      style="border-radius: 50%; border: 5px solid white;" />
+  </div>
+    
 <h1 align="center"> 
   👨‍💻 I'm Full Stack Developer | Angular - Nodejs 💜
 </h1>
