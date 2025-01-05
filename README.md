@@ -100,7 +100,7 @@ const ashour = {
 <br/>
 <br/>
 <p align="center"> 
-  Views<br/>
+  Views<br/><br/>
   <img src="https://profile-counter.glitch.me/ash356/count.svg" />
   <br/>
 </p>
