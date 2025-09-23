@@ -11,7 +11,7 @@
   </div>
     
 <h1 align="center"> 
-  👨‍💻 I'm Full Stack Developer | Angular - Nodejs 💜
+  👨‍💻 I'm Full Stack Developer | React - Nodejs 💜
 </h1>
 <br/>
 <h5 align="center"> 
