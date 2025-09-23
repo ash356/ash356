@@ -13,7 +13,7 @@
 <h2 align="center"> 
   👨‍💻 I'm Full Stack Developer
   <br/>
-React - Nodejs 💜
+React.js - Node.js 💜
 </h2>
 <br/>
 <h5 align="center"> 
