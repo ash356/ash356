@@ -10,9 +10,11 @@
       style="border-radius: 50%; border: 5px solid white;" />
   </div>
     
-<h1 align="center"> 
-  👨‍💻 I'm Full Stack Developer | React - Nodejs 💜
-</h1>
+<h2 align="center"> 
+  👨‍💻 I'm Full Stack Developer
+  <br/>
+React - Nodejs 💜
+</h2>
 <br/>
 <h5 align="center"> 
   
