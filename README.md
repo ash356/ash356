@@ -11,7 +11,7 @@
   </div>
     
 <h1 align="center"> 
-  👨‍💻 I'm Full Stack Developer | React - Nodejs 💜
+  👨‍💻 I'm Full Stack Developer | ReacAngularejs 💜
 </h1>
 <br/>
 <h5 align="center"> 
@@ -28,7 +28,7 @@ const ashour = {
   pronouns: 🙋‍♂️ "He" | "Him",
   code: [ Javascript, Typescript, SQL, Java, C++, Python ],
   technologies: {
-    frontEnd: [ HTML, CSS, Bootstrap, JavaScript, Angular ],
+    frontEnd: [ HTML, CSS, Bootstrap, JavaScript, React ],
     backEnd: [ Nodejs, Expressjs, Sequelize ],
     databases: [ MongoBD , MySql , Firebase ],
     tools: [ "Git", "GitHub", "VS-Code","PostMan","FontAwesome" ],
@@ -54,7 +54,6 @@ const ashour = {
    ![Font Awesome](https://img.shields.io/badge/-font%20awesome-339AF0?style=for-the-badge&logo=font-awesome&logoColor=339AF0&labelColor=ffffff)&nbsp;
    ![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)&nbsp;
    ![Bootstrap](https://img.shields.io/badge/Bootstrap-563D7C?style=for-the-badge&logo=bootstrap&logoColor=white)&nbsp;
-   ![Angular](https://img.shields.io/badge/Angular-DD0031?style=for-the-badge&logo=angular&logoColor=white)&nbsp;
    ![Nodejs](https://img.shields.io/badge/Node.js-43853D?style=for-the-badge&logo=node.js&logoColor=white)&nbsp;
    ![Express](https://img.shields.io/badge/Express.js-404D59?style=for-the-badge)&nbsp;
    ![Postman](https://img.shields.io/badge/Postman-FF6C37?style=for-the-badge&logo=postman&logoColor=white)&nbsp;
